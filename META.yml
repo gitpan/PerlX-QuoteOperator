@@ -1,0 +1,28 @@
+---
+name: PerlX-QuoteOperator
+version: 0.01
+author:
+  - 'Barry Walsh <draegtun@cpan.org>'
+abstract: Create new quote-like operators in Perl
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+build_requires:
+  Directory::Scratch: 0
+  Test::More: 0
+requires:
+  Devel::Declare: 0.005011
+  LWP::Simple: 0
+configure_requires:
+  Module::Build: 0.35
+provides:
+  PerlX::QuoteOperator:
+    file: lib/PerlX/QuoteOperator.pm
+    version: 0.01
+  PerlX::QuoteOperator::URL:
+    file: lib/PerlX/QuoteOperator/URL.pm
+    version: 0.01
+generated_by: Module::Build version 0.35
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
