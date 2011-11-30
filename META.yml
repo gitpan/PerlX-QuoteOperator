@@ -6,8 +6,9 @@ build_requires:
   Directory::Scratch: 0
   Test::More: 0
 configure_requires:
-  Module::Build: 0.36
-generated_by: 'Module::Build version 0.3603'
+  Module::Build: 0.38
+dynamic_config: 1
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.112150'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -16,15 +17,15 @@ name: PerlX-QuoteOperator
 provides:
   PerlX::QuoteOperator:
     file: lib/PerlX/QuoteOperator.pm
-    version: 0.02
+    version: 0.03
   PerlX::QuoteOperator::URL:
     file: lib/PerlX/QuoteOperator/URL.pm
     version: 0.02
 requires:
-  Devel::Declare: 0.005011
+  Devel::Declare: 0.006007
   LWP::Simple: 0
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=PerlX-QuoteOperator
   license: http://dev.perl.org/licenses/
   repository: http://github.com/draegtun/PerlX-QuoteOperator
-version: 0.02
+version: 0.03
