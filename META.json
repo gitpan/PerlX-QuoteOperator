@@ -28,14 +28,15 @@
       "runtime" : {
          "requires" : {
             "Devel::Declare" : "0.006007",
-            "LWP::Simple" : 0
+            "LWP::Simple" : 0,
+            "Text::Balanced" : 0
          }
       }
    },
    "provides" : {
       "PerlX::QuoteOperator" : {
          "file" : "lib/PerlX/QuoteOperator.pm",
-         "version" : "0.03"
+         "version" : "0.04"
       },
       "PerlX::QuoteOperator::URL" : {
          "file" : "lib/PerlX/QuoteOperator/URL.pm",
@@ -54,5 +55,5 @@
          "url" : "http://github.com/draegtun/PerlX-QuoteOperator"
       }
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }

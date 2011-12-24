@@ -17,15 +17,16 @@ name: PerlX-QuoteOperator
 provides:
   PerlX::QuoteOperator:
     file: lib/PerlX/QuoteOperator.pm
-    version: 0.03
+    version: 0.04
   PerlX::QuoteOperator::URL:
     file: lib/PerlX/QuoteOperator/URL.pm
     version: 0.02
 requires:
   Devel::Declare: 0.006007
   LWP::Simple: 0
+  Text::Balanced: 0
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=PerlX-QuoteOperator
   license: http://dev.perl.org/licenses/
   repository: http://github.com/draegtun/PerlX-QuoteOperator
-version: 0.03
+version: 0.04
